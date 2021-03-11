@@ -34,16 +34,20 @@ Third 30 Days | Testing, bug fixes and polish
 * Utilizing the project tab, milestones and issue tracker correctly. 
 
 # Project Leaders
+We all have our own skill-sets and are all capable of multiple roles. However, we need to semi-specialize and have some organization or else it will be chaos. For this specific first project, I have put together a position roles that are filled or can be filled. Keep in mind, this is the FIRST project, so there will be role changes as we all learn how we work together for the next project. This is our learning project. 
+
+Producer = ChrisL
+
 Technical Manager = JonR
 
 Programmer Lead = ChrisL
 
-Artist Lead = *To be determined*
+Artist Lead = *To be determined democratically*
 
-Animator Lead = *To be determined*
+Animator Lead = *To be determined democratically*
 
-Project Manager = ChrisL
+Design Lead = None, we are basically copying a game for the first test project together. We already know the basic design principals from **SUPER MEAT BOY**
 
-For our first project together, ChrisL and JonR will be leading the charge. Other projects may have team leads, but for this one, it's wise to go with folks who know Unreal Engine, GitHub and the production pipeline best.
+Audio Lead = *To be determined democratically*
 
-Artists, talk among yourselves who the lead artist is, I will adjust in this ReadMe once you establish a team lead. I suggest you first need to agree to a art style and pipeline process. 
+Writer Lead = *To be determined democratically*
