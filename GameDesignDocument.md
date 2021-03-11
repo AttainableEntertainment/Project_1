@@ -1,7 +1,8 @@
 # Project_1
 # Game Design Document
+**This document will be filled out over the next few days by ChrisL**
 
-Version 1.0
+Version 0.0.1
 ________________
 
 
