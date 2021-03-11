@@ -2,20 +2,7 @@
 # Game Design Document
 
 Version 1.0
-
-
-Chris 
-fill this out 
-
-Jon Reis
-jonreis90@hotmail.com
-
-
-
 ________________
-
-
-
 
 
 ## Design History 
