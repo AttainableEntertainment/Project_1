@@ -3,6 +3,7 @@
 **This document will be filled out over the next few days by ChrisL**
 
 Version 0.0.1
+[Major build number].[Minor build number].[Revision/Patch]
 ________________
 
 
