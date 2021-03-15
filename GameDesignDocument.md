@@ -39,10 +39,12 @@ Level based
 
 ### Mechanics
 ## Enemies 
+![Image of CrawleyBoy](https://github.com/AttainableEntertainment/Project_1/blob/master/ConceptArt/crawleyboys.png)
+
 1. CrawleyBoys - Concept is currently in pull request (todo Add image link) - these will crawl around and kill player 
-2. JumpyBoys -these will jump around 
-3. Things that fly 
-4. Others
+3. JumpyBoys -these will jump around 
+4. Things that fly 
+5. Others
 
  
 ### Physics 
