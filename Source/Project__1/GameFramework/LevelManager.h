@@ -3,26 +3,39 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Subsystems/WorldSubsystem.h"
+#include "Subsystems/GameInstanceSubsystem.h"
 #include "LevelManager.generated.h"
 
 
 /**
  * Manages all level activities in game 
  */
-UCLASS(Blueprintable,Abstract)
-class PROJECT__1_API ULevelManager : public UWorldSubsystem
+UCLASS(Abstract,Blueprintable)
+class PROJECT__1_API ULevelManager : public UGameInstanceSubsystem
 {
 	GENERATED_BODY()
 
 private:
+
+	//Functions
 	UFUNCTION()
 	void RemoveLoadingScreen();
+	UFUNCTION()
+	void UnLoadLevel(FName LevelName);
+	UFUNCTION()
+	void LoadLevel();
 
-	
-	FName CurrentLevelName= FName(TEXT(""));;
+	void InitalizeLoadingScreen();
+
+	//Variables
+
+	FName CurrentLevelName="";
+	FName LastLevelName = "";
+	//for handling latency of simultaneous load/unload of levels  
+	FLatentActionInfo LatentAction;
 
 public:
+	ULevelManager();
 
 	//Variables
 
@@ -39,8 +52,4 @@ public:
 	*/
 	UFUNCTION(BlueprintCallable, Category = "Level Manager")
 	void OpenLevelFromManager(FName LevelName);
-
-
-	
-
 };
