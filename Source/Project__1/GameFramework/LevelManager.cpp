@@ -39,7 +39,7 @@ void ULevelManager::InitalizeLoadingScreen()
 		return;
 	}
 
-	//TODO Attach this to UI manager
+	// TODO: Attach this to UI manager
 	LoadingScreen->AddToViewport();
 
 	FTimerHandle TimerHandle;
