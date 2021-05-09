@@ -16,8 +16,10 @@ ULevelManager::ULevelManager()
 	LatentAction.UUID = 1;
 	LatentAction.Linkage = 0;
 }
+
 void ULevelManager::OpenLevelFromManager(FName LevelName)
 {
+	
 	CurrentLevelName = LevelName;
 	InitalizeLoadingScreen();
 
