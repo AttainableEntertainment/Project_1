@@ -28,7 +28,7 @@ void AWidgetManagerHud::ShowWidget(UUserWidget* Widget)
 	//APlayerController* PlayerController = GetWorld()->GetFirstPlayerController();
 	//UGameplayStatics::GetPlayerPawn(this,0)->DisableInput(PlayerController);
 }
-//oid AWidgetManagerHud::SetInputMode()
+//void AWidgetManagerHud::SetInputMode()
 
 void AWidgetManagerHud::ShowLoadingScreen()
 {
