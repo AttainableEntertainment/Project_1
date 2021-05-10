@@ -7,6 +7,7 @@
 #include "GameModeBase_2D.generated.h"
 
 class ULevelManager;
+class UGameSaveManager;
 class AWidgetManagerHud;
 
 /**
@@ -19,16 +20,22 @@ class PROJECT__1_API AGameModeBase_2D : public AGameModeBase
 	
 
 private:
+	UPROPERTY()
+	ULevelManager* LevelManager;
+
+	UPROPERTY()
+	UGameSaveManager* SaveManager;
 
 public:
 	AGameModeBase_2D();
 
-	UPROPERTY(EditAnywhere)
+	UPROPERTY()
 	AWidgetManagerHud* WidgetManager;
-	UPROPERTY(EditAnywhere)
-	ULevelManager* LevelManager;
+
 protected:
 	virtual void BeginPlay() override;
+
+	void Initialise();
 
 	void OpenLevelFor2DGame(FName LevelName);
 	
