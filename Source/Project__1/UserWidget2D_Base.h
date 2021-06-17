@@ -29,6 +29,6 @@ private:
 
 	TArray<class UButton*> Buttons;
 	
-	class FTimerHandle TimeHandle;
+	//class FTimerHandle TimeHandle;
 	
 };
